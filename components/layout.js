@@ -46,10 +46,9 @@ const Layout = ({ children, home }) => {
                 WAVE<span className={utilStyles.linethrough}>CUT</span> STUDIOS
               </h1>
               <p>
-                Wavecut Studios is a software company based in Kanagawa, Japan.{" "}
+                Wavecut Studios is a software company based in Tokyo, Japan.{" "}
                 <br />
-                We make video games, interactive art installations, and audio
-                analysis tools.
+                We are currently developing products to automate creative workflows.
               </p>
               <p>
                 Wavecut Studios was founded by
