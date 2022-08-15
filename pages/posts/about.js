@@ -12,8 +12,8 @@ const About = () =>{
             <div className={utilStyles.contentContainer}>
                 <h1 className={utilStyles.heading2Xl}>About</h1>
                 <p>
-                    Wavecut Studios is a software company based in Kanagawa, Japan. <br/>
-                    We make video games, interactive art installations, and audio analysis tools.
+                    Wavecut Studios is a software company based in Tokyo, Japan. <br/>
+                    We are doing research in automating workflows for creators.
                 </p>
                 <p>
                     Wavecut Studios was founded by
@@ -24,25 +24,17 @@ const About = () =>{
                         rel="noopener noreferrer"  
                         title="Hideo Daikoku's Homepage">
                         Hideo Daikoku
-                    </a>,
-                    <span> </span>
-                    <a 
-                        href="https://www.instagram.com/patheticorganic/"　
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        title="Max Sutrisno's Instagram Profile">
-                        Maximilian Sutrisno
-                    </a> 
+                    </a>
                     
                     <span> and </span>
                     <a 
-                        href="https://www.kagome.co.jp/products/drink/" 
+                        href="https://www.linkedin.com/in/jorel-chan-968854159/" 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        title="Trolled You">
-                        Toma Ogawa
+                        title="Jorel Chan">
+                        Jorel Chan
                     </a> 
-                    <span> in 2020. </span>
+                    <span> in 2022. </span>
                     
                 </p>
             </div>
