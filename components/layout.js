@@ -62,25 +62,16 @@ const Layout = ({ children, home }) => {
                 >
                   Hideo Daikoku
                 </a>
-                ,<span> </span>
-                <a
-                  href="https://www.instagram.com/patheticorganic/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Max Sutrisno's Instagram Profile"
-                >
-                  Maximilian Sutrisno
-                </a>
                 <span> and </span>
                 <a
-                  href="https://www.kagome.co.jp/products/drink/"
+                  href="https://www.linkedin.com/in/jorel-chan-968854159/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  title="Trolled You"
+                  title="Jorel Chan's LinkedIn Page"
                 >
-                  Toma Ogawa
+                  Jorel Chan
                 </a>
-                <span> in 2020. </span>
+                <span> in 2022. </span>
               </p>
               <p>
                 Follow us on instagram at{" "}
