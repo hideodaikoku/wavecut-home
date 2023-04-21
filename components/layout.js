@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-
+import Navbar from "./navbar";
 import styles from "../styles/layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
 
@@ -72,34 +72,13 @@ const Layout = ({ children, home }) => {
                 </a>
                 <span> in 2022. </span>
               </p>
-              <p>
-                Follow us on instagram at{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://instagram.com/wavecutstudios"
-                >
-                  @wavecutstudios
-                </a>{" "}
-                for updates on our work.
-              </p>
-              <div className={styles.videoContainer}>
-                <video
-                  src="/videos/logo_solo.mp4"
-                  muted
-                  loop
-                  autoPlay
-                  alt="WaveCut Home"
-                  id={styles.wavecutVideo}
-                />
-              </div>
             </div>
           </>
         ) : (
           <></>
         )}
       </header>
-      <main>{children}</main>
+      <Navbar/>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
