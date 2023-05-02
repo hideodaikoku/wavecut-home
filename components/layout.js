@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Navbar from "./navbar";
 import styles from "../styles/layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
 
@@ -78,7 +77,6 @@ const Layout = ({ children, home }) => {
           <></>
         )}
       </header>
-      <Navbar/>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
