@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 import styles from "../styles/layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, siteTitle }) => {
   return (
     <div className={styles.container}>
       <Head>

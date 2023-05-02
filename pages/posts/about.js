@@ -5,7 +5,7 @@ import utilStyles from '../../styles/utils.module.scss';
 
 const About = () =>{
     return (
-        <Layout>
+        <Layout siteTitle='WaveCut Studios | Home'>
             <Head>
                 <title>About</title>
             </Head>

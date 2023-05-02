@@ -3,7 +3,7 @@ import Top from '../components/top';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout siteTitle='WaveCut Studios | Home'>
       <Top home/>
     </Layout>
   )
