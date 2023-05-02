@@ -4,7 +4,7 @@ const getDate =()=>{
 const Footer =()=>{
     getDate()
     return(
-        <footer className="flex justify-center mb-5">
+        <footer className="flex justify-center my-5">
             <small className="text-center">
                 &copy; WavecutStudios {getDate()}
             </small>
