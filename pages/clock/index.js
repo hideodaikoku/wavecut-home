@@ -4,12 +4,16 @@ import styles from '../../styles/canvas.module.scss';
 import Layout from '../../components/layout'
 import Header from '../../components/header';
 import Controls from './orbitcontrols';
-import Clock from 'react-live-clock'
+
 
 import Torus from './torus';
 export const siteTitle = "WaveCut Studios | Home";
 
-export default function WaveClock() {
+export default function Clock() {
+
+
+
+
     return (
         <div className="flex flex-col h-screen">
             <Header siteTitle={siteTitle} />
@@ -25,7 +29,9 @@ export default function WaveClock() {
                         <Controls />
                         <Torus rotateX={0} rotateY={0.2} scale={20} />
                     </Canvas>
+
                 </div>
+
             </Layout>
         </div>
     )
