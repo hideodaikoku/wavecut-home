@@ -4,8 +4,8 @@ const getDate =()=>{
 const Footer =()=>{
     getDate()
     return(
-        <footer className="flex justify-center mb-5">
-            <small className="text-center">
+        <footer >
+            <small>
                 &copy; WavecutStudios {getDate()}
             </small>
         </footer>
