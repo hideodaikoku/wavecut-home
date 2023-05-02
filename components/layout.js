@@ -1,24 +1,11 @@
-<<<<<<< HEAD
-import Header from "./header";
-import Footer from "./footer";
-=======
 import Head from "next/head";
 import Link from "next/link";
 import Navbar from "./navbar";
 import styles from "../styles/layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
->>>>>>> parent of 1dd7e66 (remove nav)
 
 const Layout = ({ children }) => {
   return (
-<<<<<<< HEAD
-    <div className="flex flex-col h-screen">
-      <Header/>
-      <main className="flex-1 overflow-y-auto">
-        {children}
-      </main>
-      <Footer/>
-=======
     <div className={styles.container}>
       <Head>
         <title>WaveCut Studios | Homepage</title>
@@ -96,7 +83,6 @@ const Layout = ({ children }) => {
           </Link>
         </div>
       )}
->>>>>>> parent of 1dd7e66 (remove nav)
     </div>
   );
 };
