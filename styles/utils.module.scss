@@ -50,35 +50,3 @@
 .lightText {
   color: #999;
 }
-
-.animatedText {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-
-  transform: translate(-50%, -50%);
-  text-align: left;
-
-  font-family: sans-serif;
-  font-weight: 100;
-  font-size: 8vw;
-  line-height: 8vw;
-  font-variation-settings: 'wght' 100;
-  animation: breathe 10000ms infinite forwards;
-}
-
-@keyframes breathe {
-  60% {
-    font-variation-settings: 'wght' 700;
-  }
-
-  100% {
-    font-variation-settings: 'wght' 100;
-  }
-}
-
-
-.contentContainer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
