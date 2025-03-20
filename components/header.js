@@ -16,6 +16,7 @@ const Header = (siteTitle) => {
                 sizes="32x32"
                 href="/favicons/favicon-32x32.png"
             />
+            
             <link
                 rel="icon"
                 type="image/png"
@@ -29,6 +30,7 @@ const Header = (siteTitle) => {
             />
             <meta name="og:title" content={siteTitle} />
             <meta name="twitter:card" content="summary_large_image" />
+            
         </Head>
     )
 }
